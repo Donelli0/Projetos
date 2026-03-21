@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <meta name="description" content="Portfólio de Vinícius Doneli, desenvolvedor web com foco em HTML, CSS, JavaScript e outras tecnologias.">
+    <title>Perfil Profissional</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Esse é o meu Portfólio</h1>
+
+    <header>
+        <img src="assets/img/perfil.jpeg" alt="Foto de perfil" class="foto-perfil">
+        <h1>Vinícius Doneli</h1>
+        <p>Desenvolvedor Web</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <section id="sobre">
+                <h2>Sobre Mim</h2>
+                <p class="justificado">
+                    Sou estudante de tecnologia com foco em desenvolvimento de aplicações.
+                    Tenho interesse em HTML, CSS, JavaScript e desenvolvimento de sistemas, 
+                    Além disso, busco ampliar meus conhecimentos em diferentes linguagens de programação, 
+                    como C, C++, Python e SQL, explorando desde a lógica de programação até o desenvolvimento de sistemas mais complexos e manipulação de dados. 
+                    Tenho interesse tanto no desenvolvimento de aplicações quanto na compreensão do funcionamento interno dos sistemas, 
+                    o que me motiva a estudar diferentes paradigmas e tecnologias.
+                </p>
+            </section>
+
+            <section id="projetos">
+                <h2>Projetos</h2>
+
+                <div class="projetos">
+                    <div class="card-projeto">
+                        <h3>Repositório GitHub</h3>
+                        <p>Repositório com meus projetos.</p>
+                        <a href="https://github.com/Donelli0/Projetos" target="_blank">Acessar página</a>
+                    </div>
+                    <!-- Adicione mais cards aqui -->
+                </div>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Informações</h3>
+            <p><strong>Email:</strong> vinidoneli@gmail.com</p>
+            <p><strong>Local:</strong> Brasil</p>
+
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>C & C++</li>
+                <li>SQL</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Vinícius Doneli</p>
+    </footer>
+
 </body>
 </html>
