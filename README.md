@@ -5,12 +5,8 @@ Bem-vindo ao meu repositório de projetos!
 Aqui você encontrará projetos desenvolvidos durante meus estudos em programação.
 
 ## Tecnologias utilizadas
-- Python
 - JavaScript
 - HTML e CSS
-- C
-- C++
-- SQL
 
 ## 📂 Projetos
 
